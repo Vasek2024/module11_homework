@@ -26,14 +26,23 @@
 // arrayNamber(6);
 
 
-// Задание 2
+// Задание 2 такой ватиант лучше нижнего?
+// как по мне, нижний более читаем (но это наверное для новичка!)
+
+// const result = (a) => {
+//   let reultConditions = (typeof a !== 'number' || a < 1 ) ? 'Введите натуральное число':
+//   (a >= 1001) ? ('Введено большое значение') : "Ок. Значение от 1 до 1000";
+//   console.log (reultConditions);
+// }
+// result(1001);
+
+// Задание 2  вариант 2
+
 // const result = (a) => {
 //   if (typeof a !== 'number' || a < 1 ){
-//   console.log ('Введите натуральные числа');
-//   return false;
+//   console.log ('Введите натуральное число');
 //   } else if (a >= 1001){
 //     console.log ('Введено большое значение');
-//     return false;
 //   } else {
 // console.log ("Ок. Значение от 1 до 1000");
 //   }
@@ -68,15 +77,12 @@
 
 
 // Задание 5
+// можно ли в return задать console.log()  ?
 // const result = (a, b) => {
 // if (typeof a !== 'number' || typeof b !== "number" || a < 1 || b < 1){
-// console.log ('Введите натуральные числа');
-
-// console.log(typeof a);
-// console.log(typeof b);
-// return null;
+// return console.log ('Введите натуральные числа');
 // } else {
 // let power = Math.pow(a, b);
-// return power;
+// return console.log(power);
 // }}
-// result(7, null);
+// result(7, "8");
