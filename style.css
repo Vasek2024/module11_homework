@@ -1,0 +1,14 @@
+.slider{
+  margin: 0 auto;
+  width: 800px;
+  height: 450px;
+  background-color: aquamarine;
+  border: 2px solid red;
+}
+.hidden{
+  display: none;
+}
+img{
+  width: 800px;
+  height: 450px;
+}
