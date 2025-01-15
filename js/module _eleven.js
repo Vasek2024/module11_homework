@@ -20,7 +20,7 @@
 //   }
 // }
 // if (!hasDuplicates) {
-//   console.log('Одинаковых значений нет');
+  // console.log('Одинаковых значений нет');
 // }
 // };
 // arrayNamber(6);
