@@ -1,12 +1,12 @@
-.header{
+.header {
   margin: 0 auto;
   width: 300px;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   row-gap: 10px;
 }
-button{
+
+button {
   height: 42px;
   border-radius: 10px;
   cursor: pointer;
